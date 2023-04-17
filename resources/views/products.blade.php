@@ -9,9 +9,9 @@
                     <div class="card-body">
                         <h4 class="card-title">{{ $book->name }}</h4>
                         <p>{{ $book->author }}</p>
-                        <p class="card-text"><strong>Price: </strong> ${{ $book->price }}</p>
+                        <p class="card-text"><strong>Price: </strong> {{ $book->price }}€</p>
                         <p class="btn-holder"><a href="{{ route('addbook.to.cart', $book->id) }}"
-                                class="btn btn-outline-danger">Add to cart</a> </p>
+                                class="btn btn-outline-success">Add to cart</a> </p>
                     </div>
                 </div>
             </div>

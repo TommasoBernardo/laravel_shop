@@ -9,19 +9,22 @@
 </head>
 
 <body>
+    <header class="bg-success">
+        <div class="container-fluid">
+            <div class="row">
 
-    <div class="container mt-5">
-        <h2 class="mb-3">Laravel Add To Shopping Cart Example</h2>
-
-        <div class="col-12">
-            <div class="dropdown">
-                <a class="btn btn-outline-dark" href="{{ route('shopping.cart') }}">
-                    <i class="fa fa-shopping-cart" aria-hidden="true"></i> Cart <span
-                        class="badge text-bg-danger">{{ count((array) session('cart')) }}</span>
-                </a>
+            </div>
+            <div class="col-12">
+                <div class="navbar-collapse">
+                    <a class="btn btn-outline-dark" href="{{ route('shopping.cart') }}">
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i> <span
+                            class="badge text-bg-success">{{ count((array) session('cart')) }}</span>
+                    </a>
+                </div>
             </div>
         </div>
-    </div>
+    </header>
+
 
     <div class="container mt-4">
         @if (session('success'))
