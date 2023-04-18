@@ -3,9 +3,9 @@
 @section('content')
     <div class="row">
         @foreach ($books as $book)
-            <div class="col-md-3 col-6 mb-4">
+            <div class="col-md-4 col-6 mb-4">
                 <div class="card">
-                    <img src="{{ $book->image }}" alt="{{ $book->name }}" class="card-img-top">
+                    <img src="{{ $book->image }}" alt="{{ $book->name }}" class="card-img-top img-fluid">
                     <div class="card-body">
                         <h4 class="card-title">{{ $book->name }}</h4>
                         <p>{{ $book->author }}</p>
@@ -16,5 +16,6 @@
                 </div>
             </div>
         @endforeach
+        {{ $books->links() }}
     </div>
 @endsection
