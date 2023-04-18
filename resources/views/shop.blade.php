@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <header class="bg-success">
+    <header>
         <div class="container-fluid">
             <div class="row">
 
