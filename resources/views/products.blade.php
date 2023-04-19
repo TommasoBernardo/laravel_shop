@@ -4,7 +4,7 @@
     <div class="row">
         @foreach ($books as $book)
             <div class="col-md-4 col-6 mb-4">
-                <div class="card">
+                <div class="card" style="height:900px; width:400px">
                     <img src="{{ $book->image }}" alt="{{ $book->name }}" class="card-img-top img-fluid">
                     <div class="card-body">
                         <h4 class="card-title">{{ $book->name }}</h4>

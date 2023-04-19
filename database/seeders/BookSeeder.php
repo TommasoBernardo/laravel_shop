@@ -47,12 +47,6 @@ class BookSeeder extends Seeder
                 'price' => 9.98
             ],
             [
-                'name' => 'La ladra di parole',
-                'author' => ' Abi Daré',
-                'image' => 'https://www.ibs.it/images/9788842932932_0_536_0_75.jpg',
-                'price' => 17.99
-            ],
-            [
                 'name' => 'Lo Hobbit o la riconquista del tesoro',
                 'author' => ' John R. R. Tolkien',
                 'image' => 'https://m.media-amazon.com/images/I/71gWo8CqMsL.jpg',
@@ -69,18 +63,6 @@ class BookSeeder extends Seeder
                 'author' => ' Rick Riordan',
                 'image' => 'https://www.nonsolocinema.com/wp/wp-content/uploads/2010/03/arton19721.jpg',
                 'price' => 9.88
-            ],
-            [
-                'name' => 'Gli arancini di Montalbano',
-                'author' => ' Andrea Camilleri',
-                'image' => 'https://www.mondadoristore.it/img/Commissario-Montalbano-Il-Alberto-Sironi/ea803280704576/BL/BL/10/NZO/?tit=Commissario+Montalbano+%28Il%29+-+Gli+Arancini+Di+Montalbano&aut=Alberto+Sironi',
-                'price' => 9
-            ],
-            [
-                'name' => 'The Witcher',
-                'author' => 'Andrzej Sapkowski',
-                'image' => 'https://www.lafeltrinelli.it/images/9781473231061_0_424_0_75.jpg',
-                'price' => 998
             ],
             [
                 'name' => 'Shadowhunters - 1. Città di ossa ',
