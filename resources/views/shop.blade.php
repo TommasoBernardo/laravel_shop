@@ -12,16 +12,16 @@
     <header>
         <div class="container-fluid">
             <div class="row">
-
-            </div>
-            <div class="col-12">
-                <div class="navbar-collapse">
-                    <a class="btn btn-outline-dark" href="{{ route('shopping.cart') }}">
-                        <i class="fa fa-shopping-cart" aria-hidden="true"></i> <span
-                            class="badge text-bg-success">{{ count((array) session('cart')) }}</span>
-                    </a>
+                <div class="col-12">
+                    <div class="navbar-collapse">
+                        <a class="btn btn-outline-dark" href="{{ route('shopping.cart') }}">
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i> <span
+                                class="badge text-bg-success">{{ count((array) session('cart')) }}</span>
+                        </a>
+                    </div>
                 </div>
             </div>
+
         </div>
     </header>
 
